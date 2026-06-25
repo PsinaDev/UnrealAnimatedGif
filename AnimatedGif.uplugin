@@ -4,7 +4,7 @@
 	"VersionName": "1.0",
 	"FriendlyName": "Animated GIF",
 	"Description": "Native animated-GIF support: decodes GIFs into a runtime-updating UTexture2DDynamic driven by real per-frame timing (delays, disposal compositing, loop count). Usable from a UMG widget, Slate, and materials/3D. Imports .gif as a UGifAsset or loads from file/memory at runtime.",
-	"Category": "UI",
+	"Category": "Rendering",
 	"CreatedBy": "PsinaDev",
 	"CreatedByURL": "https://github.com/PsinaDev",
 	"CanContainContent": true,
