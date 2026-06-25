@@ -58,7 +58,7 @@ The release archive ships compiled binaries for
    `YourProject/Plugins/AnimatedGif/` (create the `Plugins` folder if it doesn't
    exist). To make it available to **all** projects instead, extract into
    `<UE_5.6>/Engine/Plugins/Marketplace/AnimatedGif/`.
-3. Launch the project. Enable **Animated GIF** under **Edit → Plugins → Rendering** if it
+3. Launch the project. Enable **Animated GIF** under **Edit → Plugins → UI** if it
    isn't already, then restart.
 
 > The prebuilt binaries are version‑locked to **UE 5.6 (Win64)**. For another
@@ -72,7 +72,7 @@ For C++ projects, or to build for another engine version / platform.
    `YourProject/Plugins/AnimatedGif/`.
 2. Right‑click your `.uproject` → **Generate Visual Studio project files**.
 3. Build the project from your IDE (or let the editor compile it on launch).
-4. Enable **Animated GIF** under **Edit → Plugins → Rendering** if needed, then restart.
+4. Enable **Animated GIF** under **Edit → Plugins → UI** if needed, then restart.
 
 > `stb_image.h` is bundled under `Source/ThirdParty/stb_image/` — no external
 > dependencies to fetch.
