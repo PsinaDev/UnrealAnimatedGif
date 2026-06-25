@@ -7,6 +7,7 @@
 #include "GifPlayer.h"
 #include "Engine/Engine.h"
 #include "Misc/FileHelper.h"
+#include "UObject/Package.h"
 
 UGifPlayer* UAnimatedGifFunctionLibrary::CreatePlayerFromSource(UObject* WorldContextObject, const FAnimatedImageDataRef& Source, bool bAutoPlay, bool bLooping, UTextureRenderTarget2D* RenderTarget)
 {
