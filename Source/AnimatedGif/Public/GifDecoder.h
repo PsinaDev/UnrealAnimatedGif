@@ -2,7 +2,8 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Containers/UnrealString.h"
+#include "CoreTypes.h"
 #include "IAnimatedImageDecoder.h"
 
 /**

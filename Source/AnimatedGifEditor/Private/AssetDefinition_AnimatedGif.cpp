@@ -4,6 +4,7 @@
 #include "GifAsset.h"
 #include "GifAssetEditorToolkit.h"
 #include "AssetDefinition.h" // EAssetCategoryPaths + FAssetCategoryPath
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AssetDefinition_AnimatedGif)
 
 #define LOCTEXT_NAMESPACE "AnimatedGif"
 

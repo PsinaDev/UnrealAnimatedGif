@@ -2,7 +2,8 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "CoreTypes.h"
+#include "UObject/ObjectMacros.h"
 #include "ThumbnailRendering/ThumbnailRenderer.h"
 #include "AnimatedGifThumbnailRenderer.generated.h"
 

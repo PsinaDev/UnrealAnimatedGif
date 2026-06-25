@@ -4,7 +4,9 @@
 // path is enabled — the other formats are owned by UE's ImageWrapper, so we strip
 // them to avoid duplicate codecs and cut build time. Allocations route through UE.
 
-#include "CoreMinimal.h"
+#include "CoreTypes.h"
+#include "HAL/UnrealMemory.h"
+#include "Misc/AssertionMacros.h"
 
 #define STB_IMAGE_IMPLEMENTATION
 #define STBI_NO_STDIO

@@ -13,6 +13,7 @@
 #include "Misc/App.h"
 #include "RenderingThread.h"
 #include "RHICommandList.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(GifPlayer)
 
 void UGifPlayer::Initialize(UObject* WorldContext, const FAnimatedImageDataRef& InSource)
 {

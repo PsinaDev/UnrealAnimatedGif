@@ -11,6 +11,7 @@
 #include "RHITypes.h"
 #include "RenderingThread.h"
 #include "RHICommandList.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AnimatedGifThumbnailRenderer)
 
 bool UAnimatedGifThumbnailRenderer::CanVisualizeAsset(UObject* Object)
 {

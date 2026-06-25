@@ -2,7 +2,10 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Containers/Array.h"
+#include "CoreTypes.h"
+#include "Templates/SharedPointer.h"
+#include "UObject/Object.h"
 
 /**
  * Immutable, fully-decoded animation shared between consumers.

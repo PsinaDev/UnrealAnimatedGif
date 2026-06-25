@@ -2,6 +2,7 @@
 
 #include "GifPlaybackSubsystem.h"
 #include "GifPlayer.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(GifPlaybackSubsystem)
 
 //----------------------------------------------------------------------------
 // UGifPlaybackSubsystem

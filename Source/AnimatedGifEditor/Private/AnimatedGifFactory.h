@@ -2,7 +2,11 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Containers/Array.h"
+#include "Containers/UnrealString.h"
+#include "CoreTypes.h"
+#include "UObject/NameTypes.h"
+#include "UObject/ObjectMacros.h"
 #include "Factories/Factory.h"
 #include "EditorReimportHandler.h"
 #include "AnimatedGifFactory.generated.h"

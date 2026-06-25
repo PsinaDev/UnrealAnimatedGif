@@ -2,7 +2,10 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Containers/Array.h"
+#include "CoreTypes.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/WeakObjectPtrTemplates.h"
 #include "Subsystems/WorldSubsystem.h"
 #include "Containers/Ticker.h"
 #include "GifPlaybackSubsystem.generated.h"

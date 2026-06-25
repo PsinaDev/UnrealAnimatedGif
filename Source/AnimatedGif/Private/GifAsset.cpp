@@ -3,6 +3,7 @@
 #include "GifAsset.h"
 #include "AnimatedGifModule.h"
 #include "Misc/ScopeLock.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(GifAsset)
 
 #if WITH_EDITORONLY_DATA
 #include "EditorFramework/AssetImportData.h"

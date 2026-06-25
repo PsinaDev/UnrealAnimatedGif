@@ -2,7 +2,9 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "CoreTypes.h"
+#include "UObject/NameTypes.h"
+#include "UObject/ObjectMacros.h"
 #include "Engine/DeveloperSettings.h"
 #include "AnimatedGifSettings.generated.h"
 

@@ -8,6 +8,7 @@
 
 #include "Async/Async.h"
 #include "Misc/FileHelper.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AsyncAction_LoadAnimatedGif)
 
 UAsyncAction_LoadAnimatedGif* UAsyncAction_LoadAnimatedGif::LoadAnimatedGifFromFile(UObject* WorldContextObject, const FString& FilePath, bool bAutoPlay, bool bLooping)
 {

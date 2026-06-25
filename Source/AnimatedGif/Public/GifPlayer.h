@@ -2,7 +2,14 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Containers/Array.h"
+#include "CoreTypes.h"
+#include "Delegates/Delegate.h"
+#include "Engine/World.h"
+#include "Math/IntPoint.h"
+#include "UObject/Object.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/WeakObjectPtrTemplates.h"
 #include "AnimatedImageTypes.h"
 #include "GifPlayer.generated.h"
 

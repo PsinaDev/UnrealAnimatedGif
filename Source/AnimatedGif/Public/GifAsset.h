@@ -2,7 +2,12 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Containers/Array.h"
+#include "CoreTypes.h"
+#include "HAL/CriticalSection.h"
+#include "Math/IntPoint.h"
+#include "Serialization/Archive.h"
+#include "UObject/ObjectMacros.h"
 #include "Serialization/BulkData.h"
 #include "AnimatedImageTypes.h"
 #include "GifAsset.generated.h"

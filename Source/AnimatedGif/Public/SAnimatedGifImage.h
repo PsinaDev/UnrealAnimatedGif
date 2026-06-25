@@ -2,7 +2,10 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "CoreTypes.h"
+#include "Math/Color.h"
+#include "Math/Vector2D.h"
+#include "Templates/SharedPointer.h"
 #include "Widgets/SLeafWidget.h"
 
 class FDeferredCleanupSlateBrush;

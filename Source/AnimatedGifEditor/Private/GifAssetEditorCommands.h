@@ -2,7 +2,8 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "CoreTypes.h"
+#include "Templates/SharedPointer.h"
 #include "Framework/Commands/Commands.h"
 #include "Styling/AppStyle.h"
 

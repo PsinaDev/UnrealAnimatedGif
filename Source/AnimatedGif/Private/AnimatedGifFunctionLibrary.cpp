@@ -8,6 +8,7 @@
 #include "Engine/Engine.h"
 #include "Misc/FileHelper.h"
 #include "UObject/Package.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AnimatedGifFunctionLibrary)
 
 UGifPlayer* UAnimatedGifFunctionLibrary::CreatePlayerFromSource(UObject* WorldContextObject, const FAnimatedImageDataRef& Source, bool bAutoPlay, bool bLooping, UTextureRenderTarget2D* RenderTarget)
 {

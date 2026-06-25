@@ -2,7 +2,11 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "CoreTypes.h"
+#include "Internationalization/Text.h"
+#include "Math/Color.h"
+#include "Templates/SharedPointer.h"
+#include "UObject/ObjectMacros.h"
 #include "Components/Widget.h"
 #include "AnimatedGifImage.generated.h"
 

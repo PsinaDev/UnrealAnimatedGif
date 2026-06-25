@@ -4,6 +4,7 @@
 #include "SAnimatedGifImage.h"
 #include "GifAsset.h"
 #include "GifPlayer.h"
+#include UE_INLINE_GENERATED_CPP_BY_NAME(AnimatedGifImage)
 
 #define LOCTEXT_NAMESPACE "AnimatedGif"
 

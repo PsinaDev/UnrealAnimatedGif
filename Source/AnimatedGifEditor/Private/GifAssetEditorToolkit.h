@@ -2,7 +2,12 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Containers/UnrealString.h"
+#include "CoreTypes.h"
+#include "Internationalization/Text.h"
+#include "Math/Color.h"
+#include "Templates/SharedPointer.h"
+#include "UObject/NameTypes.h"
 #include "Toolkits/AssetEditorToolkit.h"
 #include "UObject/GCObject.h"
 
