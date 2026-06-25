@@ -47,15 +47,36 @@ real per‑frame delays, disposal/compositing and loop count from the file.
 
 ## Installation
 
+### From a release
+
+The release archive ships compiled binaries for
+**UE 5.6 / Win64**.
+
+1. Download the latest archive from
+   [Releases](https://github.com/PsinaDev/UnrealAnimatedGif/releases).
+2. Extract the `AnimatedGif` folder into your project's `Plugins/` directory:
+   `YourProject/Plugins/AnimatedGif/` (create the `Plugins` folder if it doesn't
+   exist). To make it available to **all** projects instead, extract into
+   `<UE_5.6>/Engine/Plugins/Marketplace/AnimatedGif/`.
+3. Launch the project. Enable **Animated GIF** under **Edit → Plugins → UI** if it
+   isn't already, then restart.
+
+> The prebuilt binaries are version‑locked to **UE 5.6 (Win64)**. For another
+> engine version or platform, use the source install below.
+
+### From source
+
+For C++ projects, or to build for another engine version / platform.
+
 1. Copy the `AnimatedGif` folder into your project's `Plugins/` directory:
    `YourProject/Plugins/AnimatedGif/`.
 2. Right‑click your `.uproject` → **Generate Visual Studio project files**.
 3. Build the project from your IDE (or let the editor compile it on launch).
-4. The plugin is enabled by default (project plugins are). If needed, enable
-   **Animated GIF** under **Edit → Plugins → UI** and restart.
+4. Enable **Animated GIF** under **Edit → Plugins → UI** if needed, then restart.
 
-> `stb_image.h` is bundled under `Source/ThirdParty/stb_image/` - no external
+> `stb_image.h` is bundled under `Source/ThirdParty/stb_image/` — no external
 > dependencies to fetch.
+
 
 ## Quick start
 
